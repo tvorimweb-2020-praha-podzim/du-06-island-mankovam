@@ -160,7 +160,7 @@ footer {
         border-right: none;
     }
 
-    article figure {
+    .foto-article {
         position: relative;
     }
 
@@ -171,7 +171,7 @@ footer {
         right: 1rem;
     }
 
-    article a {
+    .foto-article a {
         color: honeydew;
     } 
 
@@ -236,27 +236,35 @@ footer {
         display: flex;
         flex-direction: column;
         align-self: start; 
-       
+        flex-basis: 20%;
     }
 
     .menu{
         border: none;
-        flex-basis: 25%;
-       
     }
 
     .menu a {
-        padding-right: 6rem;
         display: inline-block;
+        width: 8rem;
+        text-align: left;
+        font-size: 12px;
     }
 
     .uvod {
-        flex-basis: 75%;
+        flex-basis: 80%;
     }
 
-    article img {
+    .uvod p {
+        margin-left: 0;
+    }
+
+    .foto-article {
          flex-basis: 100%;
     }
+
+  
+
+
 
     .foto {
         flex-basis: calc(100%/3);
