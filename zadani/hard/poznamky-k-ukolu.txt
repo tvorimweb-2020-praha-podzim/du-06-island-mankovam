@@ -36,3 +36,4 @@ nejširší obrazovky
 - v galerii jsou vždy 3 obrázky vedle sebe
 - popisky k obrázkům v textu jsou stejné jako pro střední šířky (uvnitř obrázku)
 - popisky k obrázkům v galerii jsou stejné jako střední šířky (skryté + stejný efekt)
+
