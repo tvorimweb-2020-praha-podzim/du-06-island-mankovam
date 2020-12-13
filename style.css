@@ -296,12 +296,15 @@ footer {
         flex-basis: calc(100%/3);
     }
 
- 
+
 
     .foto:hover {
-        transform: scale(1.1); 
+        transform: scale(1.1);    
         
     }
+
+   /*a tady nekde ma byt to overflow:hidden, jen nevim, k cemu ho dat :( */
+    
 
 
 
