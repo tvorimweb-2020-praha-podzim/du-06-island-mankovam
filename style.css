@@ -201,11 +201,15 @@ footer {
 
     .foto {
         position: relative;
-        margin-bottom: -0.5rem;
         flex-basis: 50%;
         overflow: hidden;
     }
 
+    .foto img {
+        display: block;
+    }
+
+    
     .popisek {
         position: absolute;
         bottom: 0;
@@ -213,13 +217,14 @@ footer {
         color: honeydew;
         background-color: rgba(0,0,0,0.3);
         text-align: center;
-        padding-bottom: 0.5rem;
+        padding-bottom: 0;
+        padding-top: 0;
         transition: transform 0.3s ease-in;
         transform: translateY(100%);  
     }
 
     .foto:hover .popisek {
-        transform: translateY(-15%);
+        transform: translateY(0);
         
     }
 
@@ -294,20 +299,16 @@ footer {
   
     .foto {
         flex-basis: calc(100%/3);
-    }
-
-
-
-    .foto:hover {
-        transform: scale(1.1);    
+        
         
     }
 
-   /*a tady nekde ma byt to overflow:hidden, jen nevim, k cemu ho dat :( */
-    
-
-
-
+    .foto:hover img {
+        transform: scale(1.1);    
+        overflow: hidden;
+        transition: transform 0.3s linear;
+        
+    }
 
     footer {
         margin: auto;
